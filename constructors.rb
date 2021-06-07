@@ -20,6 +20,6 @@ puts string[4..7]
 puts string[4..-1]
 puts string[4..-2]
 
-#вывод подстроки
+#вывод инфы можно ли пергнать в другой тип данных
 puts "white".respond_to? :to_s
 puts "white".respond_to? :to_iit
