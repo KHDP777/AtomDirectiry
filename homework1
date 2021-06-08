@@ -1,0 +1,20 @@
+pi = 3.1415926535
+num = pi.to_s
+puts num[0..3]
+
+dayofoweak = %w[понедельник вторник среда четверг пятница суббота]
+dayofoweak.push("воскресенье")
+print dayofoweak
+puts dayofoweak[0]
+puts dayofoweak[1]
+puts dayofoweak[2]
+puts dayofoweak[3]
+puts dayofoweak[4]
+puts dayofoweak[5]
+puts dayofoweak[6]
+
+long = dayofoweak.count
+
+for i in 0..long
+  puts dayofoweak[i]
+end
